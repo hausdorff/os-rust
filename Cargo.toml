@@ -1,0 +1,11 @@
+[package]
+name = "LabBook"
+version = "0.0.1"
+authors = ["Alex Clemmer <clemmer.alexander@gmail.com>"]
+
+[dependencies]
+libc = { version = "0.2.14", default-features = false }
+
+[[bin]]
+name = "lab"
+path = "src/main.rs"
